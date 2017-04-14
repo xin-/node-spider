@@ -1,3 +1,4 @@
 
 import "babel-register"
-import "./src/index.js"
+import "babel-polyfill"
+import "./src/server.js"

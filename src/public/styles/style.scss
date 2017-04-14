@@ -1,0 +1,66 @@
+html,body{
+	padding: 10px;
+	margin: 0;
+}
+
+$gaojingwidth: 50px;
+$gaojingheight: 80px;
+
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.borderLine{
+	position: absolute;
+	background: url(/images/psb.jpeg);
+}
+
+.headLine,.footerLine{
+	width: 100%;
+	height: $gaojingheight;
+	background-size: auto 100%;
+}
+
+.leftLine,.rightLine{
+	width: $gaojingwidth;
+	height: calc(100% - 160px);
+	top: $gaojingheight;
+	background-size: $gaojingwidth $gaojingheight;
+}
+
+.leftLine{
+	left: 0;
+}
+
+.rightLine{
+	right: 0;
+}
+
+.headLine{
+	top: 0;
+}
+
+.footerLine{
+	bottom: 0;
+}
+
+.subcon{
+	position: absolute;
+	width: calc(100% - 100px);
+	height: calc(100% - 160px);
+	left: $gaojingwidth;
+	top: $gaojingheight;
+	padding: 10px;
+	#submit{
+		padding: 5px;
+	}
+	*{
+		margin-top: 5px;
+	}
+}
+
+
+
+
