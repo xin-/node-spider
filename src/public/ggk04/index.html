@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="open">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>寻龙诀抽奖活动</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="dns-prefetch" href="http://syh-js.wepiao.com">
+    <link rel="dns-prefetch" href="http://syh-css.wepiao.com">
+    <link rel="dns-prefetch" href="http://f.wepiao.com">
+    <script src="js/zepto.min.js"></script>
+</head>
+<body>
+  <div class="img">
+    <img src="images/banner.jpg" id="top">
+    </div>
+    <div id="win">
+
+    </div>
+    
+
+
+
+<!--统计-->
+<script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+               m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-58583546-8', 'auto');
+        ga('send', 'pageview');
+   </script> 
+
+      <!--引入抽奖js-->
+<script type="text/javascript" src="http://f.wepiao.com/h5/widget/card/static/js/card.js" id="Card-js" data-activityid="f564882da2aa6a12" data-channelid="3" data-childid="100"></script>
+
+
+</body> 
+
+<!--初始化抽奖产品--> 
+<script>
+
+      ;(function(){
+     
+         var share = {
+                    "share_imgurl": "http://ww1.sinaimg.cn/square/d385c5d3jw1f1njjmt67vj20yi1bdaji.jpg",//分享给朋友图片
+                    "share_title": "微票儿刮刮卡",//分享给朋友标题
+                    "share_desc": "微票儿刮刮卡desc",//分享给朋友说明
+                    "share_linkurl":location.href,//分享给朋友地址
+                    "share_circleimg": "http://ww1.sinaimg.cn/square/d385c5d3jw1f1njjmt67vj20yi1bdaji.jpg",//分享到朋友圈图片
+                    "share_circletitle": "微票儿刮刮卡",//分享到朋友圈标题
+                    "share_circleurl":location.href //分享到朋友圈地址
+                  };
+         var card = new Card("win",share); //   参数依次为：容器id，分享信息 （注：如果不需要默认开启分享第二个参数就不要传）
+      })();
+    </script>
+
+</html> 
+

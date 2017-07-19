@@ -16,9 +16,9 @@ router.get('/', (req, res, next) => {
 router.get('/view', (req, res, next) => {
 	console.log(`path:::: " /view "`)
 	res.render('index', {
-		title: '======',
-		domain: '+++++++',
-		message: '～～～～',
+		title: '高静',
+		domain: '刘高静',
+		message: '我爱你',
 	})
 })
 

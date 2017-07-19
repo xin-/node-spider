@@ -17,7 +17,7 @@ const demoSpider = addr => {
 		      	const items = [];
 		      	$('#topic_list .topic_title').each(function (idx, element) {
 		        const dom = $(element);
-		        items.push({
+		        items.push({ 
 			          	title: dom.attr('title'),
 			          	href: dom.attr('href')
 		        	});
