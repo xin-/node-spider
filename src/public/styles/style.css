@@ -45,5 +45,19 @@ html, body {
     padding: 5px; }
   .subcon * {
     margin-top: 5px; }
+.picture {
+    display: inline-block;
+    width: 200px;
+height: 150px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+.picture.stage-0 {
+    background-image: url(../images/psb.jpeg);
+}
+.picture.stage-1 {
+    background-image: url(../images/WechatIMG51211.jpeg);
+}
 
 /*# sourceMappingURL=style.css.map */
